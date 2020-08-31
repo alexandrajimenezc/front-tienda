@@ -1,4 +1,4 @@
-.contact {
+.login {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
   /* border:2px solid red; */
 }
 
-.contact__container {
+.login__container {
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid var(--letras_y_bordes);
   border-radius: 40px;
@@ -23,40 +23,38 @@
   flex-direction: column;
   margin-top: 40px;
 }
-.contact__container--h2 {
+.login__container--h2 {
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
 }
-.contact__container--form {
+.login__container--form {
   display: flex;
   flex-direction: column;
 }
 
-.contact__container--form label {
+.login__container--form label {
   font-size: 14px;
 }
 
-.contact__container--terminos {
-  color: var(--letras_y_bordes);
-  display: flex;
-  justify-content: space-between;
-  margin-top: 14px;
+.login__container--iniciar {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 19px;
 }
 
-.contact__container--terminos a {
+.login__container--iniciar a {
   color: var(--letras_y_bordes);
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 12px;
   text-decoration: none;
 }
 
-.contact__container--terminos a:hover {
+.login__container--iniciar a:hover {
   text-decoration: underline;
 }
-
-
 .input {
   background-color: transparent;
   border-left: 0px;
@@ -91,32 +89,51 @@
 button:hover {
   transform: scale(1.1);
 }
+.login__container--social-media {
+  color: var(--letras_y_bordes);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
 
+.social__img {
+  width: 30px;
+  margin-right: 10px;
+}
+.login__container--register,
+.login-item {
+  text-align: center;
+  color: var(--letras_y_bordes);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-item:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 760px) {
-  .contact__container {
+  .login__container {
     width: 300px;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 }
 @media (max-width: 580px) {
-  .contact__container {
+  .login__container {
     width: 300px;
     padding: 50px 40px 20px;
     min-height: 545px;
   }
 }
 @media (max-width: 380px) {
-  .contact__container {
-   
-    width:200px;
+  .login__container {
+    width: 200px;
     padding: 50px 30px 20px;
-  
   }
   .input {
     font-size: 13px;
-   
   }
-  
 }

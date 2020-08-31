@@ -44,7 +44,7 @@ export default class Navigation extends Component {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/longin">
+              <Link className="nav-link" to="/login">
                 iniciar sesión
               </Link>
             </li>
