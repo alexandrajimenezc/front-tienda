@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Contacto.css";
-/* import { Link } from 'react-router-dom' */
+
 
 export default class Contacto extends Component {
   render() {

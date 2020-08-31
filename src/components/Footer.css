@@ -1,17 +1,4 @@
 .footer {
-/*   border: 1px solid; */
-  /* sticky style */
-  /*   position: absolute;
-  width: 100%;
-  bottom: 0; */
-  /* height: 150px; */
-  /* position: relative;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    height: 130px; 
-    width: 100%; */
   height: 116px;
   display: flex;
   width: 100%;
@@ -23,10 +10,8 @@
 
 .footer-container {
   display: flex;
-  /*   justify-content: space-around; */
   align-items: center;
   flex-direction: column;
-   /* border:1px solid rgb(71, 47, 47);   */
   width: 100%;
 }
 
@@ -38,11 +23,9 @@
   font-weight: bold;
   padding: 5px 0;
   flex-direction: column;
-  /* border: 2px solid rgb(163, 42, 42);   */
 }
 
 .sm {
-  /* border:2px solid #fff; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,7 +51,6 @@
   fill: var(--letras_y_bordes);
   stroke-width: 0.1;
   stroke: var(--letras_y_bordes);
-  /* fill:  var(--letras_y_bordes);; */
 }
 .icon.fb path {
   stroke-dasharray: 100;
@@ -177,7 +159,6 @@
 @media (max-width: 460px) {
   .footer {
     height: 160px;
-  
   }
   .footer__terminos {
     display: flex;
@@ -187,7 +168,6 @@
     flex-direction: column;
     /*      border:1px solid red; */
     height: 60px;
-  
   }
   .footer-container span {
     margin-top: 0px;

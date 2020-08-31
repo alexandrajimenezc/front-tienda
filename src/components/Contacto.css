@@ -105,3 +105,32 @@
 button:hover {
   transform: scale(1.1);
 }
+
+
+@media (max-width: 760px) {
+  .contact__container {
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 580px) {
+  .contact__container {
+    width: 300px;
+    padding: 50px 40px 20px;
+    min-height: 545px;
+  }
+}
+@media (max-width: 380px) {
+  .contact__container {
+   
+    width:200px;
+    padding: 50px 30px 20px;
+  
+  }
+  .input {
+    font-size: 13px;
+   
+  }
+  
+}
