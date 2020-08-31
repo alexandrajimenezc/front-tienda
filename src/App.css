@@ -14,8 +14,9 @@
   }
   
   body{
-  background: rgb(230, 213, 213);
-  /*  height: cal(100vh - 130px); */ 
+  background: linear-gradient( var(--header_y_degradado1), var(--footer_y_degradado2));
+  
+   height: calc(100vh - 130px); 
    
   
   }

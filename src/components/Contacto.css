@@ -1,118 +1,107 @@
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 30px;
-   min-height: cal(100vh - 200px); 
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
 
-/* border:2px solid red; */
-    }
-    
-    .contact__container{
+  /* border:2px solid red; */
+}
 
-    background-color: rgba(255,255,255,0.1);
-    border: 2px solid var(--letras_y_bordes);
-    border-radius: 40px;
-    color:var(--letras_y_bordes);
-    width: 400px;
-    padding: 60px 68px 20px;
-    min-height: 545px;
-    display:flex;
-    box-shadow: 1px 2px 30px currentColor;
-    justify-content: space-around;
-    flex-direction: column;
-        margin-top: 40px;
-    }
-   .contact__container--h2{
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 40px;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-    }
-    .contact__container--form{
-    display:flex;
-    flex-direction:column;
-   
-   
-    }
-    
-    .contact__container--form label{
-    font-size: 14px;
-    }
-    
-    .contact__container--terminos {
-    color:var(--letras_y_bordes);
-    display:flex;
-    justify-content: space-between;
-    margin-top:14px;
-    
-    }
-    
-    .contact__container--terminos a{
-    color:var(--letras_y_bordes);
-    font-size: 14px;
-    text-decoration:none;
-    }   
-    
-    .contact__container--terminos a:hover{
-        text-decoration:underline;
-    }
-    
-    
-        .contact__container--iniciar{
-            font-size: 14px;
-            text-align: center;
-        }
-        
-        .contact__container--iniciar a{
-            color:var(--letras_y_bordes);
-            font-weight: bold;
-            font-size: 12px;
-            text-decoration: none;
-        }
-        
-        .contact__container--iniciar a:hover{
-           
-            text-decoration:underline ;
-        }
-        .input{
-            background-color: transparent;
-            border-left:0px ;
-            border-top:0px;
-            border-right:0px;
-            border-bottom: 2px solid var(--letras_y_bordes);
-            font-family: "Asap", sans-serif;
-            font-size:16px;
-            margin-bottom:20px;
-            padding: 0px 20px;
-            outline:none;
-            height: 50px;
-        }
-    
-        ::placeholder{
-            color:var(--letras_y_bordes);
-        }
-    
-        .button{
-    background-color: rgba(255,255,255,0.1);
-    border:none;
-    border-radius: 25px;
-    color: var(--letras_y_bordes);
-    cursor:pointer;
-    font-size: 16px;
-    font-weight: bold;
-    height: 50px;
-    letter-spacing: 1px;
-    margin:50px 0;
-    transition: .4s;
+.contact__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--letras_y_bordes);
+  border-radius: 40px;
+  color: var(--letras_y_bordes);
+  width: 400px;
+  padding: 60px 68px 20px;
+  min-height: 545px;
+  display: flex;
+  box-shadow: 1px 2px 30px currentColor;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.contact__container--h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+.contact__container--form {
+  display: flex;
+  flex-direction: column;
+}
 
-  
-        }
-        button:hover{
-transform: scale(1.1);
-        }
+.contact__container--form label {
+  font-size: 14px;
+}
 
+.contact__container--terminos {
+  color: var(--letras_y_bordes);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
 
+.contact__container--terminos a {
+  color: var(--letras_y_bordes);
+  font-size: 14px;
+  text-decoration: none;
+}
 
+.contact__container--terminos a:hover {
+  text-decoration: underline;
+}
+
+.contact__container--iniciar {
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact__container--iniciar a {
+  color: var(--letras_y_bordes);
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.contact__container--iniciar a:hover {
+  text-decoration: underline;
+}
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid var(--letras_y_bordes);
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+}
+
+::placeholder {
+  color: var(--letras_y_bordes);
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: var(--letras_y_bordes);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 50px 0;
+  transition: 0.4s;
+}
+button:hover {
+  transform: scale(1.1);
+}

@@ -16,6 +16,7 @@ function App() {
       <Navigation />
        <div className="container-body">
             <Route path="/contacto" component={Contacto}/>
+          
             <Footer/>  
        </div>
       
